@@ -132,7 +132,7 @@ function askUser() {
                                 if (err) throw err;
 
                                 console.log("Thank you For purchazing from Amazon!!");
-                                
+
                                 console.log("<*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*>");
                                 console.log("<*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*>");
                             })
@@ -140,7 +140,7 @@ function askUser() {
                     }
                     else {
                         console.log("The product id you selected is not in our inventory ,PLease inter the Valid id number. Thank you!!")
-                        
+
                     }
                     connection.end();
                 }
